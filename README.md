@@ -9,9 +9,7 @@ Ce projet se concentre sur l'analyse des données relatives au cancer du sein en
 - [Installation](#installation)
 - [Utilisation](#utilisation)
 - [Structure du Projet](#structure-du-projet)
-- [Résultats et Interprétations](#résultats-et-interprétations)
-- [Contribution](#contribution)
-- [Références](#références)
+
 
 ## Contexte
 Le projet utilise un jeu de données sur le cancer du sein, qui comprend diverses caractéristiques mesurées à partir des biopsies mammaires. L'objectif principal est de prédire si une tumeur est bénigne ou maligne à partir de ces caractéristiques. En plus de la modélisation, le projet intègre l'explicabilité des modèles pour mieux comprendre les décisions prises par ces derniers.
@@ -33,4 +31,13 @@ Le projet utilise un jeu de données sur le cancer du sein, qui comprend diverse
    cd breast-cancer-data-analysis
 
 
-   
+## Utilisation
+	•	Ouvrez le notebook BREAST_CANCER_DATA_ANALYSIS.ipynb dans Jupyter Notebook ou JupyterLab.
+
+## Structure du Projet
+breast-cancer-data-analysis/
+│
+├── BREAST_CANCER_DATA_ANALYSIS.ipynb   # Notebook principal contenant l'analyse
+├── data/                               # jeu de données                            
+├── requirements.txt                    # Liste des dépendances du projet
+└── README.md                           # Fichier de documentation détaillée
